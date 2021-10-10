@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightToysCatalogue", "FlyweightToysCatalogue.csproj", "{654B58EA-FF8A-4E06-827A-E158F58CB4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "..\Main\Main.csproj", "{11A7BF7F-890E-4F32-96A9-FD095B3E7A61}"
+	ProjectSection(ProjectDependencies) = postProject
+		{654B58EA-FF8A-4E06-827A-E158F58CB4AD} = {654B58EA-FF8A-4E06-827A-E158F58CB4AD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{654B58EA-FF8A-4E06-827A-E158F58CB4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{654B58EA-FF8A-4E06-827A-E158F58CB4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{654B58EA-FF8A-4E06-827A-E158F58CB4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{654B58EA-FF8A-4E06-827A-E158F58CB4AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A7BF7F-890E-4F32-96A9-FD095B3E7A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A7BF7F-890E-4F32-96A9-FD095B3E7A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A7BF7F-890E-4F32-96A9-FD095B3E7A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A7BF7F-890E-4F32-96A9-FD095B3E7A61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {781150F5-E0D4-4F91-ACA0-17FA5D22A5E7}
+	EndGlobalSection
+EndGlobal
